@@ -1,0 +1,17 @@
+.why{
+
+    &__title{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        font-size: 35px;
+        font-weight: 500;
+        font-family: 'Lora';
+        color: rgb(35, 34, 34);
+        text-align: center;
+    }
+
+    &__video{
+        display: inline-block;
+        margin: 0 auto;
+    }
+}

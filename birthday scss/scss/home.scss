@@ -1,0 +1,57 @@
+.home{
+    margin-bottom: 584px;
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content{
+        max-width: 600px;
+    }
+
+    &__title{
+        font-family: 'Lora';
+        font-size: 26px;
+        font-weight: 500;
+        color: rgb(100, 175, 221);
+        margin-bottom: 20px;
+    }
+
+    &__about{
+        font-family: 'Lora';
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(91, 5, 91);
+    }
+
+    &__titles{
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(84, 84, 224);
+        margin-bottom: 20px;
+        margin-top: 28px;
+    }
+
+    &__texts{
+        font-size: 23px;
+        font-weight: 500;
+        color: rgb(82, 149, 14);
+        letter-spacing: 3px;
+        margin-bottom: 12px;
+
+        &:last-child{
+            margin: 0;
+        }
+    }
+
+    &__imgs{
+        display: flex;
+        align-items: center;
+    }
+
+    &__img{
+        width: 400px;
+        height: 200px;
+    }
+}

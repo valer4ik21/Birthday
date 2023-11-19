@@ -1,0 +1,16 @@
+.header{
+    margin-top: 20px;
+    margin-bottom: 56px;
+
+    &__inner{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo{
+        font-family: 'Kdam Thmor Pro';
+        font-weight: 400;
+        font-size: 53px;
+        color: rgb(48, 50, 52);
+    }
+}
